@@ -40,7 +40,7 @@ As UCS algorithm is the same as BFS, it also has the same limitations as the BFS
 
 ### A* Search
 
-Our A* search uses a heuristic in determining which successor to follow to minimize the cost to the successor state. In our implementation, our heuristic is Manhattan distance. So to choose best possible action, our A* agent runs the A* algorithm which finds the distance between the head of snake and food at each step and defines the path that can be followed to each the food.
+Our A* search uses a heuristic in determining which successor to follow to minimize the cost to the successor state. In our implementation, our heuristic is Manhattan distance. So to choose best possible action, our A* agent runs the A* algorithm which finds the distance between the head of snake and food at each step and defines the path that can be followed to reach the food.
 
 ![alt text](https://github.com/kishanpatel-hub/SnakeGame/blob/main/Res/A-final.gif)
 
